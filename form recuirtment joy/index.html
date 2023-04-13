@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="index.css" />
+</head>
+<body>
+	<div class="top-bar">
+        <img src="img/nw-horizontal.png">
+	</div>
+	<form>
+        <img src="img/logomark-sign.png">
+
+		<h1>Form Rekrutasi</h1>
+        <p style="font-size: 13px">Isi data di bawah sesuai dengan identitas diri anda dan lowongan yang akan anda pilih</p>
+		
+		<label for="fullname">Fullname: <span style="color:red">*</span></label>
+		<input type="text" id="fullname" name="fullname" placeholder="Masukkan Nama" required>
+
+		<label for="email">Email: <span style="color:red">*</span></label>
+		<input type="email" id="email" name="email" placeholder="Masukkan Email" required>
+
+		<label for="password">Phone Number: <span style="color:red">*</span></label>
+		<input type="number" id="phone" name="phone" placeholder="Masukkan Number" required>
+
+        <label for="password">Vacancy: <span style="color:red">*</span></label>
+		<select  id="vacancy" name="vacancy" required>
+            <option disables selected value>
+                - Pilih Lowongan -
+            </option>   
+            <option>
+                Database Developer
+            </option>
+        </select>    
+		<label for="position">Position <span style="color:red">*</span></label>
+		<select class="form-control" required="" name="posisi" id="posisi">
+					<option value="" disabled="" selected="">- Pilih Posisi -</option>
+					<option value="#example1">Contoh Posisi #1</option>
+					<option value="#example2">Contoh Posisi #2</option>
+					<option value="#example3">Contoh Posisi #3</option>
+		 </select>           		
+		<input type="submit" value="Kirim">
+			<div class="footer">
+				<div class="footer-item">
+						<a href="https://instagram.com/neuronworks">
+                                <img src="img/IG.png" style="width: 2rem;">
+                            </a> 
+                </div>                   
+              	<div class="footer-item">
+                            <a href="https://www.youtube.com/@NeuronworksIndonesia">
+                                <img src="img/YOUTUBE.png" style="width: 2rem;">
+                            </a>
+                </div>
+                <div class="footer-item">  
+                            <a href=https://twitter.com/neuronworks">
+                                <img src="img/TWITER.png" style="width: 2rem;">
+                            </a>
+                </div>
+                <div class="footer-item">
+                            <a href="https://www.facebook.com/neuronworks/">
+                                <img src="img/FB.png" style="width: 2rem;">
+                            </a>
+                </div>
+            </div>                 
+                <div>
+                        <p style="text-align: center;">
+                            <a href="https://www.neuronworks.co.id" ><span style="color:silver">
+                            	www.neuronworks.co.id
+                            </span>
+                            </a>
+                        </p>
+                </div>    
+				
+	</form>
+</body>
+</html>
